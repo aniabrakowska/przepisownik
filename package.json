@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^8.0.0",
     "@splidejs/react-splide": "^0.7.12",
     "gh-pages": "^4.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "4.0.3",
+    "sass": "^1.57.1"
   },
   "scripts": {
     "start": "react-scripts start",
