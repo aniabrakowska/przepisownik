@@ -7,7 +7,7 @@ import { Splide } from '@splidejs/react-splide';
 // import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/dist/css/splide-core.min.css';
 
-const ListWrapper = () => (
+const CategoriesWrapper = () => (
     <Splide 
         options={ { 
             type: 'loop',
@@ -26,4 +26,4 @@ const ListWrapper = () => (
     </Splide>
 );
 
-export default ListWrapper;
+export default CategoriesWrapper;
