@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/przepisownik/static/css/main.3fb3679a.css",
-    "main.js": "/przepisownik/static/js/main.7290d2b9.js",
+    "main.js": "/przepisownik/static/js/main.993644c9.js",
     "index.html": "/przepisownik/index.html",
     "main.3fb3679a.css.map": "/przepisownik/static/css/main.3fb3679a.css.map",
-    "main.7290d2b9.js.map": "/przepisownik/static/js/main.7290d2b9.js.map"
+    "main.993644c9.js.map": "/przepisownik/static/js/main.993644c9.js.map"
   },
   "entrypoints": [
     "static/css/main.3fb3679a.css",
-    "static/js/main.7290d2b9.js"
+    "static/js/main.993644c9.js"
   ]
 }
