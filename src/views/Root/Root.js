@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 // import CategoriesWrapper from "../../components/CategoriesWrapper/CategoriesWrapper";
-// import RecipesView from "../RecipesView/RecipesView";
-// import CategoriesView from "../CategoriesView/CategoriesView";
+import RecipesView from "../RecipesView/RecipesView";
+import CategoriesView from "../CategoriesView/CategoriesView";
 
 
 const Root = () => {
@@ -20,8 +20,8 @@ const Root = () => {
         </>
         <Routes>
             <Route path="/*" element={<h3>Główna</h3>} />
-            <Route path="/categories" element={<h3>kategorie</h3>} />
-            <Route path="/recipes" element={<h3>Przepisy</h3>} />
+            <Route path="/categories" element={<CategoriesView />} />
+            <Route path="/recipes" element={<RecipesView /> } />
         </ Routes>
     </BrowserRouter>
     );

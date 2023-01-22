@@ -4,8 +4,7 @@ import CategoriesItem from "./CategoriesItem/CategoriesItem";
 import { categories } from "../../data/data";
 
 import { Splide } from '@splidejs/react-splide';
-// import '@splidejs/react-splide/css';
-import '@splidejs/react-splide/dist/css/splide-core.min.css';
+import '@splidejs/react-splide/css/core';
 
 const CategoriesWrapper = () => (
     <Splide 

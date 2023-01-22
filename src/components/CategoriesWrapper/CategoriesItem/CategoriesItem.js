@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/dist/css/splide-core.min.css';
+import '@splidejs/react-splide/css/core';
 
 import defaultCategoryImage from "../../../assets/images/default.jpg";
 import styles from './CategoriesItem.module.scss';
