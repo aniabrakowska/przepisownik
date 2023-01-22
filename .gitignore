@@ -2,3 +2,5 @@ node_modules/
 src/assets/
 *.png
 *.jpg
+*package-lock.json
+*yarn.lock
