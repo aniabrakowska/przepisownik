@@ -1,22 +1,20 @@
 {
-  "main.css": "/przepisownik/static/css/main.9beefd24.chunk.css",
-  "main.js": "/przepisownik/static/js/main.0d09a98f.chunk.js",
-  "main.js.map": "/przepisownik/static/js/main.0d09a98f.chunk.js.map",
-  "static/css/1.a9c00942.chunk.css": "/przepisownik/static/css/1.a9c00942.chunk.css",
-  "static/js/1.b6c1f685.chunk.js": "/przepisownik/static/js/1.b6c1f685.chunk.js",
-  "static/js/1.b6c1f685.chunk.js.map": "/przepisownik/static/js/1.b6c1f685.chunk.js.map",
-  "runtime~main.js": "/przepisownik/static/js/runtime~main.5424f3ef.js",
-  "runtime~main.js.map": "/przepisownik/static/js/runtime~main.5424f3ef.js.map",
-  "static/media/default.jpg": "/przepisownik/static/media/default.0b9146d1.jpg",
-  "static/media/fish.jpg": "/przepisownik/static/media/fish.7d52c4ae.jpg",
-  "static/media/breakfast.jpg": "/przepisownik/static/media/breakfast.9f77d1cb.jpg",
-  "static/media/pasta.jpg": "/przepisownik/static/media/pasta.e0e5bb25.jpg",
-  "static/media/groats.jpg": "/przepisownik/static/media/groats.ae20c992.jpg",
-  "static/media/salad.jpg": "/przepisownik/static/media/salad.6e4070bd.jpg",
-  "static/media/dessert.jpg": "/przepisownik/static/media/dessert.111f7c0d.jpg",
-  "static/css/1.a9c00942.chunk.css.map": "/przepisownik/static/css/1.a9c00942.chunk.css.map",
-  "static/css/main.9beefd24.chunk.css.map": "/przepisownik/static/css/main.9beefd24.chunk.css.map",
-  "index.html": "/przepisownik/index.html",
-  "precache-manifest.593066364ad8e0a8fb4d9bcf32121103.js": "/przepisownik/precache-manifest.593066364ad8e0a8fb4d9bcf32121103.js",
-  "service-worker.js": "/przepisownik/service-worker.js"
+  "files": {
+    "main.css": "/przepisownik/static/css/main.ab5f55a7.css",
+    "main.js": "/przepisownik/static/js/main.7e0ba7fc.js",
+    "static/media/pasta.jpg": "/przepisownik/static/media/pasta.1071dd1a98cc3a2a94ca.jpg",
+    "static/media/fish.jpg": "/przepisownik/static/media/fish.45c633ffb8d13b1b579c.jpg",
+    "static/media/salad.jpg": "/przepisownik/static/media/salad.676152720093748067b9.jpg",
+    "static/media/dessert.jpg": "/przepisownik/static/media/dessert.04dad7a046d8ae7abc0f.jpg",
+    "static/media/groats.jpg": "/przepisownik/static/media/groats.c42e98cc47e2b7d27a32.jpg",
+    "static/media/breakfast.jpg": "/przepisownik/static/media/breakfast.f9b9b1c79fbd82b69106.jpg",
+    "static/media/default.jpg": "/przepisownik/static/media/default.9453dfe2ccb13801abd4.jpg",
+    "index.html": "/przepisownik/index.html",
+    "main.ab5f55a7.css.map": "/przepisownik/static/css/main.ab5f55a7.css.map",
+    "main.7e0ba7fc.js.map": "/przepisownik/static/js/main.7e0ba7fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5f55a7.css",
+    "static/js/main.7e0ba7fc.js"
+  ]
 }
