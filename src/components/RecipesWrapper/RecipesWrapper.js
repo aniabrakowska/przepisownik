@@ -1,16 +1,17 @@
 import React from "react";
 
 import RecipesItem from "./RecipesItem/RecipesItem";
-import { recipes } from "../../data/data";
+// import { recipes } from "../../data/data";
 
-const RecipesWrapper = () => (
-    
-        recipes.map(item => (
-        <RecipesItem
-            {...item}
-        />
-        ))
-    
+const RecipesWrapper = (props) => (
+    <>
+        {props.items.map(item => (
+            <RecipesItem
+                key={item.name}
+                {...item}
+            />
+        ))}
+    </>
 );
 
 export default RecipesWrapper;

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import defaultCategoryImage from "../../../assets/images/default.jpg";
-import styles from './RecipesItem.module.scss';
+// import styles from './RecipesItem.module.scss';
 
 const RecipesItem = ({image, name, ingredients, process}) => (
     <div>
