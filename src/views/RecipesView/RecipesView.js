@@ -1,12 +1,16 @@
 import React from "react";
+
 import RecipesWrapper from "../../components/RecipesWrapper/RecipesWrapper";
 import Form from "../../components/Form/Form";
-import { recipes } from "../../data/data";
+import { recipes, categories } from "../../data/data";
+
+
 
 class RecipesView extends React.Component{
 
     state = {
-        items: [...recipes],
+        recipesItems: [...recipes],
+        categoriesItems: [...categories],
     }
 
     addItem = (e) => {
@@ -17,10 +21,11 @@ class RecipesView extends React.Component{
             image: e.target[1].value,
             ingredients: e.target[2].value,
             process: e.target[3].value,
+            category: e.target[4].value,
         }
 
         this.setState( prevState => ({
-            items: [...prevState.items, newRecipe],
+            recipesItems: [...prevState.recipesItems, newRecipe],
         }));
 
         e.target.reset();
@@ -32,9 +37,10 @@ class RecipesView extends React.Component{
             <>
                 <p>Recipes List :</p>
                 <RecipesWrapper 
-                    items={this.state.items}
+                    recipesItems={this.state.recipesItems}
+                    
                 />
-                <Form submitFn={this.addItem}/>
+                <Form submitFn={this.addItem} categoriesItems={this.state.categoriesItems}/>
             </>
         )
     }
